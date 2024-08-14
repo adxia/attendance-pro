@@ -1,8 +1,13 @@
 .demo-logo-vertical {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    margin-left: 20px;
+    height: 64px;
+    margin-left: 0px;
+
     user-select: none;
-    margin-top: 20%;
+    margin-top: 0%;
+    /* border-bottom: 1px solid #d8cae8; */
+    padding-left: 20px;
+    padding-top: 20px;
+    -webkit-app-region: drag;
 }

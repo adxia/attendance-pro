@@ -1,17 +1,23 @@
 {
   "name": "attendance-pro",
   "private": true,
+  "description": "attendance pro",
   "version": "0.0.0",
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "electron .",
+    "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
   },
   "dependencies": {
+    "echarts": "^5.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0"
+    "react-router-dom": "^6.26.0",
+    "tslib": "^2.6.3"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.2",
@@ -19,11 +25,14 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "antd": "^5.19.4",
+    "electron": "^31.3.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "react-countup": "^6.5.3",
     "react-icons": "^5.2.1",
+    "sass": "^1.77.8",
     "vite": "^5.3.4"
   }
 }

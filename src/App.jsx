@@ -14,10 +14,8 @@ function App() {
           <Routes>
             <Route path="/" element={<RootLayout/>}>
                 <Route index element={<Home/>}/>
-                <Route path="Setting"  element={<Setting/>}/>
-                
+                <Route path="/Setting"  element={<Setting/>}/>
                 <Route path="Form"  element={<Form/>}/>
-
             </Route>
             <Route path='*' element={<NotFound/>}/>
 

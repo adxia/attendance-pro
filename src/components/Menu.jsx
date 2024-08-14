@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom"
 import { useState } from "react";
 
-import "./Menu.css"
+import "./Menu.scss"
 const Menu = ({items,selectitem}) => {
     const [Class, setClass] = useState("home")
     const [isselect, setisselect] = useState(false)

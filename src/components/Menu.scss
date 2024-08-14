@@ -4,15 +4,16 @@
     align-items: start;
     justify-content: center;
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
+
 
 }
 
 .item {
-    margin-top: 20px;
+    margin-top: 14px;
     font-size: 20px;
     z-index: 20;
-    color: #e2e2e2;
+    color: #323232;
     display: flex;
     align-items: center;
     margin-left: 36px;
@@ -22,7 +23,7 @@
 }
 
 a:hover {
-    color: #e2e2e2;
+    color: #5542f6;
 }
 
 
@@ -32,23 +33,24 @@ a:hover {
 .Form {
     margin-left: 20px;
     height: 46px;
-    width: 180px;
-    background-color: #262A30;
+    width: 160px;
+    background: linear-gradient(45deg, #6656f9, #8a75f9);
+    // background-color: #6757f2;
     border-radius: 10px;
     position: absolute;
     z-index: 0;
-    transition: transform 0.3s;
+    transition: transform 0.2s;
 }
 
 .home {
 
 
-    transform: translateY(-55px);
+    transform: translateY(-52px);
 }
 
 .Setting {
 
-    transform: translateY(10px);
+    transform: translateY(8px);
 
 }
 
@@ -58,9 +60,9 @@ a:hover {
 }
 
 .active {
-    color: #61B9B9;
+    color: #fff;
 }
 
 .Form {
-    transform: translateY(76px);
+    transform: translateY(68px);
 }

@@ -1,6 +1,6 @@
 const Form = () => {
     return ( 
-        <div>
+        <div style={{marginTop:'400px'}}>
             <h1>Form</h1>
         </div>
      );
